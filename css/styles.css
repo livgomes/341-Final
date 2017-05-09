@@ -39,6 +39,21 @@ color: black;
 .drop-menu:hover .drop-content {
   display: block;
 
+}
+.paragraph {
+display: none;
+border: 2px solid;
+margin: 0;
+background-color: violet;
+}
+
+.paragraph {
+color: darkgrey;
+padding: 12px 16px;
+display: block;
+text-align: center;
+}
+
 a{
 color: #maroon;
 }
