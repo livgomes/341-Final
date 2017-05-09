@@ -38,8 +38,8 @@ color: black;
 
 .drop-menu:hover .drop-content {
   display: block;
-
 }
+
 .paragraph {
 display: none;
 border: 2px solid;
@@ -48,10 +48,22 @@ background-color: violet;
 }
 
 .paragraph {
-color: darkgrey;
+color: black;
 padding: 12px 16px;
 display: block;
 text-align: center;
+}
+
+
+.content {
+text-align: center;
+text-color: black;
+
+}
+div.content {
+  margin: auto;
+  padding: 10px 10%;
+  float: left;
 }
 
 a{
