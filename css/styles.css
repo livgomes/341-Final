@@ -14,10 +14,29 @@ height: 3em;
 background-color: darkgrey;
 }
 
-iv.content {
+.content {
   margin: auto;
   padding: 10px 10%;
   float: left;
+}
+div.content {
+  margin: auto;
+  padding: 10px 10%;
+  float: left;
+}
+
+.paragraph {
+display: none;
+border: 2px solid;
+margin: 0;
+background-color: violet;
+}
+
+.paragraph {
+color: black;
+padding: 12px 16px;
+display: block;
+text-align: center;
 }
 
 li {
