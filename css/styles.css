@@ -11,6 +11,7 @@ p {
   font-famiy: sans-serif;
   letter-spacing: 4px;
 }
+
 .first, .second, .bgimg-3 {
     position: relative;
     opacity: 0.65;
@@ -32,25 +33,27 @@ p {
   background-position: center;
   background-size: cover;
 }
+
 .first-image {
-  background-image: url("imgs/snow.JPG");
+  background-image: url("imgs/missoula.JPG");
   min-height: 700px;
 }
 
 .second-image {
-  background-image: url("imgs/rock.jpg");
+  background-image: url("imgs/montana.jpg");
   min-height: 700px;
 }
 
 .third-image {
-  background-image: url("imgs/maracus.jpg");
+  background-image: url("imgs/wildlife.jpg");
   min-height: 700px;
 }
 
 .forth-image {
-  background-image: url("imgs/bruny.jpg");
+  background-image: url("imgs/wilderness.jpg");
   min-height: 700px;
 }
+
 .bgimg-3 {
     min-height: 400px;
     background-image: url("imgs/img_parallax3.jpg");
