@@ -24,14 +24,28 @@ div.content {
   padding: 10px 10%;
   float: left;
 }
+.contact-info {
+  float: left;
+  padding: 10px 10%;
+  margin: auto;
+}
 
+.subtitle {
+  display:cnone;
+  border: 2px solid;
+  margin: 0;
+  text-align: left;
+
+}
 .paragraph {
 display: none;
 border: 2px solid;
 margin: 0;
 background-color: violet;
 }
-
+.div {
+  float: left;
+}
 .paragraph {
 color: black;
 padding: 12px 16px;
