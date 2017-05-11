@@ -117,7 +117,7 @@ p {
 
 .first-image {
   background-image: url("imgs/snow.JPG");
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .second-image {
