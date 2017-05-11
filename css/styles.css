@@ -35,8 +35,13 @@ div.content {
   border: 2px solid;
   margin: 0;
   text-align: left;
-
 }
+fieldset {
+  float: left;
+  padding: 10px 10%;
+  margin: auto;
+}
+
 .paragraph {
 display: none;
 border: 2px solid;
