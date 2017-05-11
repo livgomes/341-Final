@@ -105,8 +105,6 @@ p {
 
 .first {
     min-height: 400px;
-    width: 100%;
-    height: 100%;
 }
 
 .second {
@@ -126,7 +124,7 @@ p {
 }
 
 .first-image {
-  background-image: url("imgs/bio.JPG");
+  background-image: url("imgs/farm.JPG");
   min-height: 700px;
 }
 
@@ -159,7 +157,6 @@ p {
 }
 
 .caption {
-
     width: 100%;
     color: red;
     text-align: center;
