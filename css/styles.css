@@ -126,17 +126,17 @@ p {
 }
 
 .first-image {
-  background-image: url("imgs/nature.JPG");
+  background-image: url("imgs/bio.JPG");
   min-height: 700px;
 }
 
 .second-image {
-  background-image: url("imgs/nature.JPG");
+  background-image: url("imgs/maracas.JPG");
   min-height: 700px;
 }
 
 .third-image {
-  background-image: url("imgs/nature.JPG");
+  background-image: url("imgs/waves.JPG");
   min-height: 700px;
 }
 
