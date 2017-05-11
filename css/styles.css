@@ -2,6 +2,44 @@ body {
     margin: 0;
     color: #777;
     font: 400 15px/1.8 "Lato", sans-serif;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+font-family: sans-serif;
+margin:0px;
+height: 3em;
+background-color: darkgrey;
+}
+
+
+li {
+float: left;
+}
+
+li a, .dropbutton {
+color: black;
+margin: 0 40px 0;
+display: block;
+}
+
+li a:hover, .drop-menu:hover .dropbutton {
+background-color: violet;
+color: black;
+}
+.drop-content {
+  display: none;
+  position: absolute;
+  border: 1px solid;
+  margin: 0;
+  background-color: violet;
+  z-index: 1;
+}
+
+.drop-menu:hover .drop-content {
+  display: block;
 }
 
 p {
