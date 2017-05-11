@@ -157,6 +157,7 @@ p {
 }
 
 .caption {
+  margin-top: 25vh;
     width: 100%;
     color: red;
     text-align: center;
