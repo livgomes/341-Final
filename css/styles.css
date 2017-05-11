@@ -35,28 +35,28 @@ p {
 }
 
 .first-image {
-  background-image: url("imgs/missoula.JPG");
+  background-image: url("imgs/snow.JPG");
   min-height: 700px;
 }
 
 .second-image {
-  background-image: url("imgs/montana.jpg");
+  background-image: url("imgs/car.jpg");
   min-height: 700px;
 }
 
 .third-image {
-  background-image: url("imgs/wildlife.jpg");
+  background-image: url("imgs/rock.jpg");
   min-height: 700px;
 }
 
 .forth-image {
-  background-image: url("imgs/wilderness.jpg");
+  background-image: url("imgs/ohope.jpg");
   min-height: 700px;
 }
 
 .bgimg-3 {
     min-height: 400px;
-    background-image: url("imgs/img_parallax3.jpg");
+    background-image: url("imgs/farm.jpg");
 }
 
 .state {
