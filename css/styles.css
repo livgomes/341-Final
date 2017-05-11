@@ -110,6 +110,7 @@ p {
 
 .second {
     min-height: 400px;
+    width: 100px;
 }
 
 .first-image, .second-image, .third-image, .forth-image {
