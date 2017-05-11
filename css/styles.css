@@ -12,6 +12,7 @@ font-family: sans-serif;
 margin:0px;
 height: 3em;
 background-color: darkgrey;
+width: 100%;
 }
 
 .content {
@@ -92,6 +93,7 @@ p {
   font-famiy: sans-serif;
   letter-spacing: 4px;
 }
+
 .first, .second, .bgimg-3 {
     position: relative;
     opacity: 0.65;
@@ -102,6 +104,11 @@ p {
 }
 
 .first {
+    min-height: 400px;
+    width: 100%;
+}
+
+.second {
     min-height: 400px;
 }
 
@@ -115,7 +122,7 @@ p {
 }
 
 .first-image {
-  background-image: url("imgs/snow.JPG");
+  background-image: url("imgs/bio.jpg");
   min-height: 700px;
 }
 
@@ -148,9 +155,7 @@ p {
 }
 
 .caption {
-    position: absolute;
-    top: 50%;
-    left: 0;
+
     width: 100%;
     color: red;
     text-align: center;
@@ -164,9 +169,9 @@ p {
   letter-spacing: 6px;
 }
 
-.description-container {
+/*.description-container {
     position: relative;
-}
+}*/
 
 .description {
     padding: 50px 80px;
@@ -174,7 +179,6 @@ p {
     background-color: #282E34;
     text-align: center;
     text-align: justify;
-margin-top: -40px;
 }
 
 
@@ -194,9 +198,10 @@ h3 {
 }
 
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px) {
     .first, .second, .third, .forth {
         background-attachment: scroll;
     }
 }
+*/
