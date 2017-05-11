@@ -103,7 +103,7 @@ p {
 }
 
 .first {
-    min-height: 100px;
+    min-height: 400px;
 }
 
 .first-image, .second-image, .third-image, .forth-image {
@@ -131,13 +131,13 @@ p {
 }
 
 .forth-image {
-  background-image: url("imgs/nature.jpg");
+  background-image: url("imgs/nature.JPG");
   min-height: 700px;
 }
 
 .bgimg-3 {
     min-height: 400px;
-    background-image: url("imgs/farm.jpg");
+    background-image: url("imgs/farm.JPG");
 }
 
 .state {
