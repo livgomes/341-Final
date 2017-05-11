@@ -40,12 +40,12 @@ p {
 }
 
 .second-image {
-  background-image: url("imgs/car.jpg");
+  background-image: url("imgs/car.JPG");
   min-height: 700px;
 }
 
 .third-image {
-  background-image: url("imgs/rock.jpg");
+  background-image: url("imgs/rock.JPG");
   min-height: 700px;
 }
 
