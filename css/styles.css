@@ -103,7 +103,7 @@ p {
 }
 
 .first {
-    min-height: 400px;
+    min-height: 100px;
 }
 
 .first-image, .second-image, .third-image, .forth-image {
@@ -117,7 +117,7 @@ p {
 
 .first-image {
   background-image: url("imgs/snow.JPG");
-  min-height: 500px;
+  min-height: 300px;
 }
 
 .second-image {
