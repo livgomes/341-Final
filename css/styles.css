@@ -92,17 +92,17 @@ div.content {
 }
 
 .second-image {
-  background-image: url("imgs/wireframe.jpg");
+  background-image: url("imgs/rock.jpg");
   min-height: 700px;
 }
 
 .third-image {
-  background-image: url("imgs/wireframe_travel.jpg");
+  background-image: url("imgs/maracus.jpg");
   min-height: 700px;
 }
 
 .forth-image {
-  background-image: url("imgs/wireframe_bio.jpg");
+  background-image: url("imgs/bruny.jpg");
   min-height: 700px;
 }
 
