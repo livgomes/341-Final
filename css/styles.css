@@ -112,7 +112,17 @@ p {
 
 }
 
-.first-image, .second-image, .third-image, .forth-image {
+/* IMAGES */
+.first, .second, .third, .fourth {
+    position: relative;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.first-image, .second-image, .third-image, .fourth-image {
   position: relative;
   opacity: 0.65;
   background-repeat: no-repeat;
@@ -124,7 +134,7 @@ p {
 }
 
 .first-image {
-  background-image: url("imgs/snow.JPG");
+  background-image: url("imgs/bio.jpg");
   min-height: 700px;
 }
 
@@ -134,15 +144,14 @@ p {
 }
 
 .third-image {
-  background-image: url("imgs/waves.JPG");
+  background-image: url("imgs/rocks.JPG");
   min-height: 700px;
 }
 
-.forth-image {
+.fourth-image {
   background-image: url("imgs/nature.JPG");
   min-height: 700px;
 }
- 
 .bgimg-3 {
     min-height: 400px;
     background-image: url("imgs/farm.JPG");
@@ -156,11 +165,13 @@ p {
     text-align: justify;
 }
 
+
+/*TEXT PLACEMENT - Captions*/
 .caption {
-  margin-top: 25vh;
     width: 100%;
     color: red;
     text-align: center;
+    margin-top: 25vh;
 }
 
 .caption span.border {
@@ -171,32 +182,44 @@ p {
   letter-spacing: 6px;
 }
 
-/*.description-container {
-    position: relative;
-}*/
-
-.description {
-    padding: 50px 80px;
-    color: #ddd;
-    background-color: #282E34;
-    text-align: center;
-    text-align: justify;
-}
-
-
 .caption span.border {
     padding: 18px;
-    color: #f7f7f7;
+    color: black;
     background-color: violet;
     font-size: 25px;
     letter-spacing: 10px;
 }
+
+/*TEXT PLACEMENT - Descriptions*/
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+    text-align: justify;
+    width: 100%;
+}
+
+
 
 h3 {
     color: #111;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
     letter-spacing: 5px;
+}
+
+
+/*Turn off parallax scrolling for tablets and phones*/
+@media only screen and (max-device-width: 1024px) {
+    .first, .second, .third, .forth {
+        background-attachment: scroll;
+    }
 }
 
 
